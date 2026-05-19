@@ -2,9 +2,9 @@
 
 ## Sistema de Question Answering con RAG (Schengen Area)
 
-Este proyecto implementa un sistema de Generación Aumentada por Recuperación (RAG) diseñado para responder preguntas en español sobre el Acuerdo de Schengen y la Unión Europea utilizando modelos de lenguaje de última generación y búsqueda semántica.
+Este proyecto implementa un sistema de RAG diseñado para responder preguntas en español sobre el Acuerdo de Schengen y la Unión Europea utilizando modelos de lenguaje de última generación (a noviembre de 2025) y búsqueda semántica.
 
-## 🚀 Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El sistema se divide en cinco etapas principales:
 
@@ -18,7 +18,7 @@ El sistema se divide en cinco etapas principales:
    - Llama 3.2 3B Instruct
 5. **Evaluación:** Uso de la métrica BERTScore para medir la similitud semántica entre las respuestas generadas y un conjunto de prueba (Gold Standard) de 12 preguntas manuales.
 
-## 📊 Experimentos y Resultados
+## Experimentos y Resultados
 
 Se realizaron 4 experimentos variando el modelo generador y las técnicas de prompting:
 
@@ -29,7 +29,7 @@ Se realizaron 4 experimentos variando el modelo generador y las técnicas de pro
 | 3   | Llama 3.1 8B | Similitud Coseno        | Few-shot  | 0.854        |
 | 4   | Llama 3.2 3B | Similitud Coseno        | Few-shot  | 0.844        |
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Python (Google Colab)
 - Hugging Face (transformers, accelerate, evaluate)
